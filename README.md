@@ -1,12 +1,8 @@
 # Categorize Motion Level
 
-# Categorize Motion Level
-
 A toolkit to estimate and rank camera motion intensity in image/video sequences using optical flow.  
 Dynamic foreground regions are masked out using provided segmentation masks before flow computation to ensure that only camera motion is evaluated.  
 We use the conda environment from [TTT3R](https://github.com/Inception3D/TTT3R).
-
-
 
 ---
 
@@ -35,6 +31,11 @@ output_flow/<split>/split_metrics.tsv
 output_flow/<split>/split_ranking.txt
 ```
 
+**Results on DAVIS:**  
+The processed ranking results (without visualization images) can be found here:  
+[Google Drive – DAVIS ranking results (train and val)](https://drive.google.com/drive/folders/1dfy2mTWBEhr-NQ9_qGGrM3txQdU-dOrq?usp=sharing)
+
+
 ## Motion Categories
 | Category | Score Range | Description |
 |-----------|--------------|-------------|
@@ -42,7 +43,7 @@ output_flow/<split>/split_ranking.txt
 | medium    | 5–15         | moderate motion |
 | fast      | ≥ 15         | strong or fast motion |
 
-## .gitignore Suggestion
+## .gitignore
 ```
 __pycache__/
 output_*/
