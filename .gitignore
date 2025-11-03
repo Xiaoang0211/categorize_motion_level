@@ -1,0 +1,29 @@
+# -----------------------------
+# Python cache / build artifacts
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / cache directories
+*/__pycache__/
+*.egg-info/
+.build/
+dist/
+
+# -----------------------------
+# Local outputs / experiments
+# -----------------------------
+output_*/
+out_*/
+outputs_*/
+
+# -----------------------------
+# OS / editor specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

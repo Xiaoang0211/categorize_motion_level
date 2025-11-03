@@ -1,0 +1,17 @@
+{
+    "root": "/media/xiaoang/datasets_projectx/DAVIS/DAVIS",
+    "split": "val",
+    "res": "480p",
+    "out": "output_davis",
+    "frames_dir_template": "{root}/JPEGImages/{res}/{seq}",
+    "masks_dir_template":  "{root}/Annotations/{res}/{seq}",
+    "split_list_file": "{root}/ImageSets/2017/val.txt",
+    "image_exts": [".jpg", ".png"],
+    "stride": 1,
+    "single_mask": false,
+    "morph_kernel": 3,
+    "inpaint_radius": 3,
+    "flow_backend": "farneback",
+    "flow_params": { }
+  }
+  
